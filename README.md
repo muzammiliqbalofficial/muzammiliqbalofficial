@@ -15,4 +15,4 @@ I build full-stack products end to end — from a privacy-first PDF toolkit to a
 
 I care a lot about products that work honestly — no exaggerated claims, no fake urgency, no dark patterns. If a tool says your files never leave your device, I want that to actually be true and verifiable in the code.
 
-📫 Reach me by opening an issue on any of the repos above.
+📫 Reach me by opening an issue on any of the repos above, or on [LinkedIn](https://www.linkedin.com/in/muzammiliqbal-cs).
