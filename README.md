@@ -1,18 +1,41 @@
-### Hi, I'm Muzammil 👋
+## Muzammil Iqbal
 
-I build full-stack products end to end — from a privacy-first PDF toolkit to a fintech credit-scoring engine to a multi-agent crisis-response system. Based in Karachi, Pakistan.
+Full-stack engineer in Karachi, Pakistan. I build products end to end —
+browser-side tools, ML services, and agent systems — and ship them to real users.
 
-**What I'm currently building:**
+**Currently building**
 
-- 🔒 [**ZeroUpload**](https://zeroupload.co) — 15 free PDF tools that run 100% in the browser, zero uploads to any server
-- 📡 [**DropItOver**](https://dropitover.com) — same-network file sharing, expiring encrypted links, and live rooms, on Cloudflare Workers
-- 💳 [**Sahaara Score**](https://github.com/muzammiliqbalofficial/sahaara-score) — alternative credit scoring for financially invisible Pakistanis, using utility bills and academic records instead of bank statements
-- 🚨 [**CIRO-PK**](https://github.com/muzammiliqbalofficial/ciro-pk) — multi-agent Gemini AI crisis-response orchestrator, built for the #AISeekho 2026 Google Antigravity Hackathon
-- 🏦 [**IntelliBank**](https://github.com/muzammiliqbalofficial/intellibank1) — banking intelligence dashboard: fraud detection, churn prediction, revenue forecasting
-- 🛍️ [**TinyKids**](https://github.com/muzammiliqbalofficial/tinykids-ecommerce) — production e-commerce storefront for a Pakistani baby & kids retailer
+- [ZeroUpload](https://zeroupload.co) — 15 PDF tools that run entirely in the
+  browser on pdf-lib and pdf.js. No server, no uploads, no build step.
+- [DropItOver](https://dropitover.com) — cross-device file sharing over WebRTC
+  with same-network discovery and expiring encrypted links, on Cloudflare
+  Workers and Durable Objects.
 
-**Stack I reach for most:** JavaScript/TypeScript, Python, Next.js, FastAPI, Cloudflare Workers, WebAssembly, Streamlit
+**Other work**
 
-I care a lot about products that work honestly — no exaggerated claims, no fake urgency, no dark patterns. If a tool says your files never leave your device, I want that to actually be true and verifiable in the code.
+- [sahaara-score](https://github.com/muzammiliqbalofficial/sahaara-score) —
+  credit scoring from utility bills and academic records for applicants with no
+  bank history. FastAPI, Postgres, isotonic-calibrated scikit-learn models with
+  per-feature explanations.
+- [ciro-pk](https://github.com/muzammiliqbalofficial/ciro-pk) — multi-agent
+  crisis response system. Six Gemini agents on Vertex AI behind a Flask service
+  on Cloud Run, with deterministic fallback when a model call fails.
+- [SocialDownloader](https://github.com/muzammiliqbalofficial/SocialDownloader) —
+  extraction pipeline for public social posts: captions, subtitles, metadata,
+  transcripts. FastAPI, arq workers, Redis, Postgres, Next.js.
+- [intellibank1](https://github.com/muzammiliqbalofficial/intellibank1) — banking
+  analytics dashboard: fraud detection with SHAP explanations, churn prediction,
+  Prophet revenue forecasting.
+- [tinykids-ecommerce](https://github.com/muzammiliqbalofficial/tinykids-ecommerce) —
+  Next.js 15 storefront on Supabase and Cloudflare R2, built to run at zero
+  monthly hosting cost.
 
-📫 Reach me by opening an issue on any of the repos above, or on [LinkedIn](https://www.linkedin.com/in/muzammiliqbal-cs).
+**In production**
+
+TypeScript, Python, Next.js, React, FastAPI, Flask, Streamlit, Postgres, Redis,
+Supabase, Cloudflare Workers/R2/Durable Objects, Docker, scikit-learn, XGBoost.
+
+I keep README claims matched to what the code does — if a tool says files never
+leave your device, that should be verifiable by reading the source.
+
+[LinkedIn](https://www.linkedin.com/in/muzammiliqbal-cs)
